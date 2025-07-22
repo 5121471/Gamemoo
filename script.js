@@ -54,6 +54,7 @@ function showGames(mood) {
     `;
   });
 }
+
 function searchGames() {
   const query = document.getElementById("search-input").value.toLowerCase();
   const gameList = document.getElementById("game-list");

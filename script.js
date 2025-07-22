@@ -1,42 +1,42 @@
 const games = {
   happy: [
     {
-      name: "Stardew Valley",
-      image: "images/stardew.jpg",
-      link: "https://www.stardewvalley.net/"
+      name: "Candy Crush Saga",
+      image: "https://play-lh.googleusercontent.com/8QkQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQw=w240-h480-rw",
+      link: "https://play.google.com/store/apps/details?id=com.king.candycrushsaga"
     },
     {
-      name: "Overcooked 2",
-      image: "images/overcooked2.jpg",
-      link: "https://store.steampowered.com/app/728880/Overcooked_2/"
+      name: "Subway Surfers",
+      image: "https://play-lh.googleusercontent.com/8QkQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQw=w240-h480-rw",
+      link: "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf"
     }
   ],
   sad: [
     {
-      name: "Journey",
-      image: "images/journey.jpg",
-      link: "https://store.steampowered.com/app/638230/Journey/"
+      name: "Monument Valley",
+      image: "https://play-lh.googleusercontent.com/8QkQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQw=w240-h480-rw",
+      link: "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley"
     }
   ],
   angry: [
     {
-      name: "DOOM Eternal",
-      image: "images/doometernal.jpg",
-      link: "https://store.steampowered.com/app/782330/DOOM_Eternal/"
+      name: "Angry Birds 2",
+      image: "https://play-lh.googleusercontent.com/8QkQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQw=w240-h480-rw",
+      link: "https://play.google.com/store/apps/details?id=com.rovio.baba"
     }
   ],
   bored: [
     {
-      name: "Minecraft",
-      image: "images/minecraft.jpg",
-      link: "https://www.minecraft.net/en-us"
+      name: "Ludo King",
+      image: "https://play-lh.googleusercontent.com/8QkQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQw=w240-h480-rw",
+      link: "https://play.google.com/store/apps/details?id=com.ludo.king"
     }
   ],
   adventurous: [
     {
-      name: "The Legend of Zelda: Breath of the Wild",
-      image: "images/zelda.jpg",
-      link: "https://www.zelda.com/breath-of-the-wild/"
+      name: "PUBG MOBILE",
+      image: "https://play-lh.googleusercontent.com/8QkQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwQw=w240-h480-rw",
+      link: "https://play.google.com/store/apps/details?id=com.tencent.ig"
     }
   ]
 };
@@ -54,6 +54,7 @@ function showGames(mood) {
     `;
   });
 }
+
 function searchGames() {
   const query = document.getElementById("search-input").value.toLowerCase();
   const gameList = document.getElementById("game-list");

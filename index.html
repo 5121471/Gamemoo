@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood Based Game Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Mood-Based Game Finder</h1>
+    <p>Select your mood to get game suggestions!</p>
+    
+    <input type="text" id="search-input" placeholder="Search for a game..." class="search-bar" oninput="searchGames()" />
+
+    <div class="mood-buttons">
+      <button onclick="showGames('happy')">😄 Happy</button>
+      <button onclick="showGames('sad')">😢 Sad</button>
+      <button onclick="showGames('angry')">😠 Angry</button>
+      <button onclick="showGames('bored')">😐 Bored</button>
+      <button onclick="showGames('adventurous')">🏔️ Adventurous</button>
+    </div>
+    <div class="game-list" id="game-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
